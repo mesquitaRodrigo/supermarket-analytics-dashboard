@@ -1,0 +1,13 @@
+import psycopg2
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+def get_connection():
+    database_url = os.getenv("DATABASE_URL")
+
+    if not database_url:
+        raise ValueError("DATABASE_URL não carregada. Verifique o .env")
+
+    return psycopg2.connect(database_url, sslmode="require")
