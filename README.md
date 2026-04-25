@@ -2,7 +2,7 @@
 
 Dashboard interativo para análise de vendas de supermercado, desenvolvido com foco em tomada de decisão baseada em dados.
 
-🔗 **Acesse o projeto online:** [LINK_DO_STREAMLIT_AQUI]
+🔗 **Acesse o projeto online:**[LINK_DO_STREAMLIT_AQUI](https://supermarket-analytics-dashboard-gacdai8ni45fjihtfjabed.streamlit.app/)]
 
 ---
 
