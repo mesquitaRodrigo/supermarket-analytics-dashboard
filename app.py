@@ -10,7 +10,8 @@ import datetime
 load_dotenv()
 st.set_page_config(layout="wide", page_title="Analytics Supermarket")
 
-engine = create_engine(os.getenv("DATABASE_URL"))
+db_url = os.getenv("DATABASE_URL") or st.secrets["DATABASE_URL"]
+engine = create_engine(db_url)
 
 # ===== CSS MODERNO =====
 st.markdown("""
